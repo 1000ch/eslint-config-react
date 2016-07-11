@@ -15,7 +15,8 @@ In `.eslintrc`:
 ```json
 {
   "extends": [
-    "@1000ch/eslint-config-react"
+    "@1000ch/eslint-config-react",
+    "@1000ch/eslint-config-react/jsx-a11y"
   ]
 }
 ```
@@ -26,7 +27,8 @@ In `package.json`:
 {
   "eslintConfig": {
     "extends": [
-      "@1000ch/eslint-config-react"
+      "@1000ch/eslint-config-react",
+      "@1000ch/eslint-config-react/jsx-a11y"
     ]
   }
 }
