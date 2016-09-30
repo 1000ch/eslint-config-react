@@ -66,7 +66,7 @@ module.exports = {
     'react/jsx-sort-props'               : 'off', // Enforce props alphabetical sorting
     'react/jsx-space-before-closing'     : ['error', 'always'], // Validate spacing before closing bracket in JSX (fixable)
     'react/jsx-uses-react'               : 'error', // Prevent React to be incorrectly marked as unused
-    'react/jsx-uses-vars'                : 'error' // Prevent variables used in JSX to be incorrectly marked as unused
+    'react/jsx-uses-vars'                : 'error', // Prevent variables used in JSX to be incorrectly marked as unused
     'react/jsx-wrap-multilines'          : 'error' // Prevent missing parentheses around multilines JSX (fixable)
   }
 };
