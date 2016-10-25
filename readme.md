@@ -1,6 +1,7 @@
 # eslint-config-react
 
 [![Build Status](https://travis-ci.org/1000ch/eslint-config-react.svg?branch=master)](https://travis-ci.org/1000ch/eslint-config-react)
+[![devDependency Status](https://david-dm.org/1000ch/eslint-config-react/dev-status.svg)](https://david-dm.org/1000ch/eslint-config-react#info=dev)
 
 ## Install
 
