@@ -17,6 +17,7 @@ module.exports = {
     'react/display-name'                 : 'off', // Prevent missing displayName in a React component definition
     'react/forbid-component-props'       : 'off', // Forbid certain props on Components
     'react/forbid-prop-types'            : 'off', // Forbid certain propTypes
+    'react/no-array-index-key'           : 'off', // Prevent using Array index in key props
     'react/no-children-prop'             : 'error', // Prevent passing children as props
     'react/no-danger'                    : 'off', // Prevent usage of dangerous JSX properties
     'react/no-danger-with-children'      : 'off', // Prevent problem with children and props.dangerouslySetInnerHTML
@@ -37,6 +38,7 @@ module.exports = {
     'react/prefer-stateless-function'    : 'off', // Enforce stateless React Components to be written as a pure function
     'react/prop-types'                   : 'error', // Prevent missing props validation in a React component definition
     'react/react-in-jsx-scope'           : 'error', // Prevent missing React when using JSX
+    'react/require-default-props'        : 'error', // Enforce a defaultProps definition for every prop that is not a required prop
     'react/require-optimization'         : 'off', // Enforce React components to have a shouldComponentUpdate method
     'react/require-render-return'        : 'error', // Enforce ES5 or ES6 class for returning value in render function
     'react/self-closing-comp'            : 'error', // Prevent extra closing tags for components without children
