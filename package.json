@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/1000ch/eslint-config-react#readme",
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "babel-eslint": "^7.2.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "babel-eslint": "^7.2.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0"
   }
 }

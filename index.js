@@ -36,6 +36,7 @@ module.exports = {
     'react/no-unescaped-entities'         : 'off', // Prevent invalid characters from appearing in markup
     'react/no-unknown-property'           : 'error', // Prevent usage of unknown DOM property (fixable)
     'react/no-unused-prop-types'          : 'error', // Prevent definitions of unused prop types
+    'react/no-will-update-set-state'      : 'off', // Prevent usage of setState in componentWillUpdate
     'react/prefer-es6-class'              : 'error', // Enforce ES5 or ES6 class for React Components
     'react/prefer-stateless-function'     : 'off', // Enforce stateless React Components to be written as a pure function
     'react/prop-types'                    : 'error', // Prevent missing props validation in a React component definition
@@ -63,7 +64,6 @@ module.exports = {
     'react/jsx-key'                       : 'off', // Validate JSX has key prop when in array or iterator
     'react/jsx-max-props-per-line'        : 'off', // Limit maximum of props on a single line in JSX
     'react/jsx-no-bind'                   : 'error', // Prevent usage of .bind() and arrow functions in JSX props
-    'react/no-comment-textnodes'          : 'off', // Prevent comments from being inserted as text nodes
     'react/jsx-no-comment-textnodes'      : 'error', // Prevent comments from being inserted as text nodes
     'react/jsx-no-duplicate-props'        : 'error', // Prevent duplicate props in JSX
     'react/jsx-no-literals'               : 'off', // Prevent usage of unwrapped JSX strings
